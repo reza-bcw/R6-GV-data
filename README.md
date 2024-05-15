@@ -9,6 +9,6 @@ The steps below outline how selected Genesis Validators should submit the requir
 3. Inspect the `template.json` file that shows the format in which you should submit your own json file.
 4. Create a new json file called `[UUID].json`, containing your validator info as per the `template.json` file.
 5. Open a pull request against the *genesis-validator-data* branch and name the PR *"[UUID]-genesis-validator-data"*
-6. The team will review your PR and merge it if all checks pass. You have now succesfully submitted your genesis validator data for R6!
+6. The team will review your PR, veriy your ownership proof and merge it if all checks pass. You have now succesfully submitted your genesis validator data for R6!
 
 Please continue to monitor Telegram for instructions on next steps.
