@@ -1,0 +1,17 @@
+// The example values below are purely for demonstration purposes and do not constitute valid data 
+{
+    "genesisValidatorData": [
+      {
+        "enode": "enode://74753e13f91c905ae60345b8289dca855e3f3cea0cfa0d64b935c282a98a0b7fdcaa004e07cae701d66ed048fa882b7b6c4e372af1641dbbc69cb18eac995c4f@37.252.186.198:30303",
+        "treasury": "0xe33cbaA5A4E408560b229bDF1Cb58CDFD33c1C0f",
+        "consensusKey": "0x932789a802a091182a54ae55b31516e081fa10660c850b5389649e1758884cf41eb575ed526fc004148677f3f12b47d5",
+        "oracleAddress": "0xcfC6f79aa1f47b27C219E5Dbb79abA034f068b0a"
+      },
+      {
+        "validatorAddress": "0xdA699B797D901Dec38C422614caAa440AB4aA846",
+        // Ownership proof is generated as per https://docs.autonity.org/validators/register-vali/#step-1-generate-a-cryptographic-proof-of-node-ownership
+        "ownershipProof": "0xdc3866ce5ea272f073bb411647512bc0b88410bc9a9d3b32cae3cd8e187b9a8006524c1086de47bb2d0b5e128a04b64fe7bb44ef549351d6f6d38667992c8a3b0122c2f60b5777bb16bb0b60e56910d29a17a25180a4c011cf3d47c09c63c4e30224c85541601659b6e1f9b17e4d11688aec1e1380f705c8f631a3a509c8a63ff6008355499cc55ef2ab69283f63166da899409eb8ee2939d3cd9cf90249991e5dfea49ad8443e73336ab13dc25329e8d0870696fc43e74579e3d21140f3596a42e835d89f560bdc5ba025ed0e9e31cf59b2fb3a25ac02da65f95af5b72b1ccafeba"
+      }
+    ]
+}
+  
