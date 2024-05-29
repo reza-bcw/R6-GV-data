@@ -8,7 +8,6 @@
       },
       {
         "validatorAddress": "0x7CC5E4687ECB172B21a56E202e7E88950DE98B66",
-        // Ownership proof is generated as per https://docs.autonity.org/validators/register-vali/#step-1-generate-a-cryptographic-proof-of-node-ownership
         "ownershipProof": "0x0623cc9df187a5ac1f1a533729243a694d4fe3f815b6e5011337bbc3fedf5e3f6e0e690a1ea43e1e861f1db694ae018fee8d6e5c744c65d75ce488739281d5ee01882869a92cbe08ef5eecd4274a2a577e3b426106556bc554f0b6bf9cf1ab5a71776c9be9a970d6ed86d6bf0ccf005ce25f67867337fb7dd4ff351947fd953b4a009444fa0ee0c0f6b4b567a3fa693b383c3651178cb03d889df90842e23dc8e1c6e4847f9d153b839a5d06ae42cc9c089500cdd409f12e83d1f2496be7afadeccc739ef81bdd928d6f12371bb79390bcd8054d0d9eb5dfb9dfb2d304d87d8f5933"
       }
     ]
