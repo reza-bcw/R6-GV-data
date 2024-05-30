@@ -2,7 +2,7 @@ import json
 import os
 
 # Set the value for the BondedStake variable
-BONDED_STAKE_VARIABLE = 2
+BONDED_STAKE_VARIABLE = 40000
 
 # Get the current directory
 current_directory = os.getcwd()
@@ -22,6 +22,9 @@ for file_path in json_files:
     with open(file_path, 'r') as file:
         data = json.load(file)
         
+        # Get the filename without the .json extension
+        filename_without_extension = os.path.splitext(file_path)[0]
+        
         for entry in data.get("genesisValidatorData", []):
             filtered_entry = {key: value for key, value in entry.items() if key not in ["validatorAddress", "ownershipProof"]}
             if filtered_entry:  # Only append non-empty dictionaries
@@ -30,7 +33,8 @@ for file_path in json_files:
                     "OracleAddress": f'common.HexToAddress("{filtered_entry.get("oracleAddress")}")',
                     "ConsensusKey": f'common.Hex2Bytes("{filtered_entry.get("consensusKey")}")',
                     "Enode": f'"{filtered_entry.get("enode")}"',
-                    "BondedStake": f'Ntn{BONDED_STAKE_VARIABLE}'
+                    "BondedStake": f'Ntn{BONDED_STAKE_VARIABLE}',
+                    "UUID": filename_without_extension  # Add the filename without .json as UUID
                 }
                 combined_data.append(formatted_entry)
 
@@ -38,6 +42,7 @@ for file_path in json_files:
 with open('combined.json', 'w') as outfile:
     outfile.write("[\n")
     for i, entry in enumerate(combined_data):
+        outfile.write(f'    // {entry["UUID"]}\n')  # Ensure UUID is written as a string
         outfile.write("    {\n")
         outfile.write(f'        "Treasury": {entry["Treasury"]},\n')
         outfile.write(f'        "OracleAddress": {entry["OracleAddress"]},\n')
