@@ -48,7 +48,7 @@ with open('combined.json', 'w') as outfile:
         outfile.write(f'        "OracleAddress": {entry["OracleAddress"]},\n')
         outfile.write(f'        "ConsensusKey": {entry["ConsensusKey"]},\n')
         outfile.write(f'        "Enode": {entry["Enode"]},\n')
-        outfile.write(f'        "BondedStake": {entry["BondedStake"]}\n')
+        outfile.write(f'        "BondedStake": {entry["BondedStake"]},\n')
         if i < len(combined_data) - 1:
             outfile.write("    },\n")
         else:
