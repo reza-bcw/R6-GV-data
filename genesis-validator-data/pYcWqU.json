@@ -1,4 +1,3 @@
-// The example values below are purely for demonstration purposes and do not constitute valid data 
 {
     "genesisValidatorData": [
       {
@@ -9,7 +8,6 @@
       },
       {
         "validatorAddress": "0xdA699B797D901Dec38C422614caAa440AB4aA846",
-        // Ownership proof is generated as per https://docs.autonity.org/validators/register-vali/#step-1-generate-a-cryptographic-proof-of-node-ownership
         "ownershipProof": "0xdc3866ce5ea272f073bb411647512bc0b88410bc9a9d3b32cae3cd8e187b9a8006524c1086de47bb2d0b5e128a04b64fe7bb44ef549351d6f6d38667992c8a3b0122c2f60b5777bb16bb0b60e56910d29a17a25180a4c011cf3d47c09c63c4e30224c85541601659b6e1f9b17e4d11688aec1e1380f705c8f631a3a509c8a63ff6008355499cc55ef2ab69283f63166da899409eb8ee2939d3cd9cf90249991e5dfea49ad8443e73336ab13dc25329e8d0870696fc43e74579e3d21140f3596a42e835d89f560bdc5ba025ed0e9e31cf59b2fb3a25ac02da65f95af5b72b1ccafeba"
       }
     ]
