@@ -1,0 +1,15 @@
+{
+    "genesisValidatorData": [
+      {
+        "enode": "enode://291f1307c0daee6a0fdfa227bb8cc2e30fe1a0dd30ea61e976dc76d7acbeb6774acdbb1f35d5b9e5ff1ed348314e535eb63b242d1f8ad6378fb0f4d34abc11a0@5.57.42.20:30303",
+        "treasury": "0x5b9C621E304ef826eb94f554f85447F1e358Cb66",
+        "consensusKey": "0xa6b9f7113a95aa40a26571f4e26f2a971910c6ff8b067dccee61e53108868f36afc0c79ed4f8dd972c5d0085181abfdb",
+        "oracleAddress": "0xc87d6957b5E7d3B268282630042037Bd873eC652"
+      },
+      {
+        "validatorAddress": "0x100E38f7BCEc53937BDd79ADE46F34362470577B",
+        "ownershipProof": "0x72d8bb73ecefac8cacc8d90b433467ba06f4dd5e62929cef1bd21595a78f368374315b6dbb8de3a44fc01eb74a6b89f7810b06aee14db9cc7e488d11f6a321bd001f27b40a69338f314f2a2eaa23cc4cc8f029cfed764c4606d85ac7b1a1cb503b6519f59bbeefbefd5ba48bedc561d125f0abbf26f9d25b0820279dc9c57e4ad1018a8517b0ab87b881a8ad1a8d192dceb9b89ebda8779c2683dd6539bb8f44ffecf0c99c17fbfb1481671130d1ba068c6014de66aa6b81aac915028162a8a8088c0cfcb4f25ace268e2af89472bf0833d75c66edc29bf16cb1952f58c575199090"
+      }
+    ]
+}
+  
